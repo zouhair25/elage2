@@ -1,0 +1,224 @@
+.calendar-component {
+
+  .legende {
+
+    .custom-control {
+      padding-left: 3.1rem;
+      align-items: center;
+      align-content: center;
+    }
+
+    .custom-control-label::before {
+      width: 1.05rem;
+      height: 1.05rem;
+      border-color: transparent;
+    }
+
+    .custom-control-label::after {
+      width:1.05rem;
+      height: 1.05rem;
+      border-color: transparent;
+    }
+
+    .vue_clobale>.custom-control-label::before {
+      background-color: #4191ff;
+    }
+
+    .vu>.custom-control-label::before {
+      background-color: #1bc943;
+    }
+
+    .en_salle>.custom-control-label::before {
+      background-color: #f4772e;
+    }
+
+    .encaisse>.custom-control-label::before {
+      background-color: #793de6;
+    }
+
+    .sans_rdv>.custom-control-label::before {
+      background-color: #7a7b97;
+    }
+
+    .avec_rdv>.custom-control-label::before {
+      background-color: #11c5db;
+    }
+
+    .semaineTravail>.custom-control-label::before {
+      border-color: #033A7C;
+    }
+
+    .semaineAll>.custom-control-label::before {
+      border-color: #033A7C;
+    }
+
+    .divider {
+      background-color: #d1d2db;
+    }
+
+  }
+
+  .search-wrapper .form-control {
+    border-width: 1px;
+    background: white;
+  }
+
+  .bs-datepicker {
+    border: 0;
+    box-shadow: none;
+  }
+
+  .bs-datepicker-container {
+    padding: 0;
+  }
+
+  .app-inner-content-layout--sidebar__lg {
+    width: 328px;
+  }
+
+  @media (max-width: 1367.98px) {
+    .sidebar-inner-layout-overlay.active {
+      opacity: 0;
+      visibility: visible;
+    }
+  }
+
+  .icon-wrapper {
+    opacity: .5;
+  }
+
+}
+
+
+
+
+// RDV
+
+.rdv {
+
+  .selectionner-patient {
+    border-width: 1px !important;
+    border-style: solid;
+    border-color: $input-border-color;
+  }
+
+}
+
+
+// Type de consultation :
+
+
+.type-consultation-component, .saisie-type-consultation-component {
+
+  .palette-color {
+    .btn {
+      &:hover {
+        transform: scale(1.8);
+        z-index: 9;
+        box-shadow: $modal-content-box-shadow-xs;
+      }
+    }
+
+    .color-1 {
+      background-color: #FF5C58;
+    }
+
+    .color-2 {
+      background-color: #664E88;
+    }
+
+    .color-3 {
+      background-color: #008d8b;
+    }
+
+    .color-4 {
+      background-color: #FFB319;
+    }
+
+    .color-5 {
+      background-color: #EB92BE;
+    }
+
+    .color-6 {
+      background-color: #C36839;
+    }
+
+    .color-7 {
+      background-color: #3DB2FF;
+    }
+
+    .color-8 {
+      background-color: #cb6d6d;
+    }
+
+    .color-9 {
+      background-color: #7C83FD;
+    }
+
+    .color-10 {
+      background-color: #5fcfc8;
+    }
+
+    .color-11 {
+      background-color: #B590CA;
+    }
+
+    .color-12 {
+      background-color: #0A81AB;
+    }
+
+    .color-13 {
+      background-color: #926E6F;
+    }
+
+    .color-14 {
+      background-color: #CE1F6A;
+    }
+
+    .color-15 {
+      background-color: #8fac00;
+    }
+
+    .color-16 {
+      background-color: #0E49B5;
+    }
+
+    .color-17 {
+      background-color: #e44343;
+    }
+
+    .color-18 {
+      background-color: #664E88;
+    }
+
+    .color-19 {
+      background-color: #09015F;
+    }
+
+    .color-20 {
+      background-color: #EB5E0B;
+    }
+
+    .color-21 {
+      background-color: #440A67;
+    }
+
+    .color-22 {
+      background-color: #71c075;
+    }
+
+    .color-23 {
+      background-color: #7e7e81;
+    }
+
+    .color-24 {
+      background-color: #025955;
+    }
+
+    .color-25 {
+      background-color: #d39f5e;
+    }
+
+  }
+
+}

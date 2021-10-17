@@ -1,0 +1,65 @@
+.dossier-patient-component {
+
+  // Time line
+
+  .timeline-list-offset .timeline-item {
+    padding-left: 130px;
+  }
+
+  .timeline-list-offset .timeline-item-offset {
+    width: 83px !important;
+  }
+
+  .timeline-list-offset.timeline-list-offset-dot:before {
+    left: 108px !important;
+  }
+
+  .timeline-list .timeline-item--label {
+    font-size: 15px !important;
+  }
+
+  .timeline-list .timeline-item p {
+    font-size: 15px;
+  }
+
+  // Tab
+
+  .tabs-animated>.nav-tabs .nav-item .nav-link {
+    color: $gray-700;
+  }
+
+  .tabs-animated>.nav-tabs .nav-item .nav-link:last-child {
+    padding: 0;
+    padding-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .tabs-animated>.nav-tabs .nav-item .nav-link.active,
+  .tabs-animated>.nav-tabs .nav-item .nav-link:hover {
+    color: $second;
+    border: 0;
+  }
+
+  .tabs-animated>.nav-tabs .nav-item .nav-link::before {
+    height: 2px;
+    background-color: $second;
+  }
+
+  .modal-profile {
+    background-color: $gray-200;
+    border-bottom: 1px solid #0b69b74a;
+  }
+
+  // table
+  .table {
+    th, td {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+  }
+
+  .avatar-profile {
+    border: 5px solid #eeeff8 !important;
+  }
+
+}

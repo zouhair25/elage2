@@ -1,0 +1,59 @@
+// pages-register-content-component
+.pages-register-content-component {
+  .nav.nav-line .nav-item .nav-link {
+    font-size: calc(15px + 0.6vw);
+    font-weight: $font-weight-normal;
+  }
+  .card {
+    height: 350px;
+  }
+  .custom-control-label::active {
+    background: no-repeat $second;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 576px) {
+  .bg-composed-wrapper--content {
+    h1 {
+      font-size: 32px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg-composed-wrapper--content {
+    h1 {
+      font-size: 18px !important;
+    }
+  }
+}
+
+
+// login-mobile-login-component
+.login-mobile-login-component {
+  .bg-composed-wrapper--image {
+    height: 200px;
+  }
+  .bg-color-e-elaje {
+    background-image: linear-gradient(to top, #df000000 0%, #030199 100%) !important;
+    height: 200px;
+  }
+}
+
+
+// login-mobile-create-account-component
+.login-mobile-create-account-component {
+  .bg-composed-wrapper--image {
+    height: 200px;
+  }
+  .bg-color-e-elaje {
+    background-image: linear-gradient(to top, #df000000 0%, #030199 100%) !important;
+    height: 200px;
+  }
+  .nav.nav-line .nav-item .nav-link {
+    font-size: calc(17px + 0.6vw);
+    font-weight: $font-weight-normal;
+  }
+}
+
+
